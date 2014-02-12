@@ -1,7 +1,44 @@
-doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
+	head
+		title NOMBRE DEPARTAMENTO | Universidad de Granada
+		meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
+		meta(name="description", content="Universidad de Granada - NOMBRE DEPARTAMENTO")
+		meta(name="keywords", content="universidad,granada,NOMBRE DEPARTAMENTO")
+		meta(http-equiv="content-language", name="language", content="es")
+		link(rel="shortcut icon", href="/img/favicon.ico", type="image/vnd.microsoft.icon")
+		link(rel="icon", href="/img/favicon.ico", type="image/vnd.microsoft.icon")
+		link(rel="stylesheet", id="css-style", type="text/css", href="css/style.css", media="all")
+
+	body
+		#contenedor_margenes
+			#contenedor
+				#cabecera
+					h1#cab_inf NOMBRE DEPARTAMENTO
+					#formularios
+						a(href="http://www.ugr.es", id="enlace_ugr") Universidad de Granada
+						span.separador_enlaces |
+						div(id="depto ejemplo_titulo")
+							span.titulo_stack Departamento
+							a(href="index.html", id="enlace_stack") NOMBRE DEL DEPARTAMENTO
+						span.separador_enlaces | 
+
+				#rastro-idiomas
+					#rastro_breadcrumb
+						ul#rastro_breadcrumb
+							li.first
+								a(class="first", href="index.html") Presentación
+
+				#general
+					#menus
+						div(id="enlaces_secciones", class="mod-menu_secciones")
+							ul
+								li(class="selected tipo2-selected item-first_level")
+									a(href="index.html") Presentación
+								li(class="tipo2 item-first_level")
+									a(href="personal.html") Personal
+								li(class="tipo2 item-first_level")
+									a(href="contacto.html") Localización y Contacto
+								li(class="tipo2 item-first_level")
+									a(href="pruebas.html") Pruebas
+
