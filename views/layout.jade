@@ -11,20 +11,20 @@ html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 		link(rel="stylesheet", id="css-style", type="text/css", href="css/style.css", media="all")
 
 	body
-		#contenedor_margenes
-			#contenedor
-				#cabecera
+		div(id="contenedor_margenes" class="")
+			div(id="contenedor" class="")
+				div(id="cabecera" class="")
 					h1#cab_inf NOMBRE DEPARTAMENTO
 					#formularios
 						a(href="http://www.ugr.es", id="enlace_ugr") Universidad de Granada
 						span.separador_enlaces |
-						div(id="depto ejemplo_titulo")
+						div(class="depto ejemplo_titulo")
 							span.titulo_stack Departamento
 							a(href="index.html", id="enlace_stack") NOMBRE DEL DEPARTAMENTO
 						span.separador_enlaces | 
 
 				#rastro-idiomas
-					#rastro_breadcrumb
+					#rastro
 						ul#rastro_breadcrumb
 							li.first
 								a(class="first", href="index.html") Presentación
@@ -40,5 +40,68 @@ html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 								li(class="tipo2 item-first_level")
 									a(href="contacto.html") Localización y Contacto
 								li(class="tipo2 item-first_level")
-									a(href="pruebas.html") Pruebas
+									a(href="pruebas.html") Página de muestras
+
+						div(id="frecuentes", class="mod-menu_secciones menu_frecuentes", style="display: none;")
+							ul
+								li(class="adicional1 item-first_level")
+									a(href="#") Elemento 1er nivel
+									ul
+										li(class="tipo1 item-second_level")
+											a(href="#") Elemento 2º nivel
+
+					#pagina
+						h1#titulo_pagina
+							span.texto_titulo Presentación
+
+						div(id="contenido", class="sec_interior")
+							.content_doku
+								p
+									| <img width="200" alt="mapa_bbm3i" title="mapa_bbm3i" class="medialeft" src="imagenes/mapa.jpeg" />
+									| <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+
+								p
+									| <img width="200" alt="mapa_bbm3i" title="mapa_bbm3i" class="mediaright" src="imagenes/mapa.jpeg" />
+									| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+
+								p
+									| <img width="200" alt="mapa_bbm3i" title="mapa_bbm3i" class="mediacenter" src="imagenes/mapa.jpeg" />
+									| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+
+				#banners
+					.mod-banners
+						ul
+							li(class="banner_container model-resaltado-01 showtext")
+								a(class="banner", href="URL DONDE APUNTA EL BANNER")
+									strong LINEA 1 DE TEXTO
+									em LINEA 2 DE TEXTO
+									span LINEA 3 DE TEXTO
+
+							li(class="banner_container model-resaltado-01 showtext")
+								a(class="banner", href="URL DONDE APUNTA EL BANNER")
+									strong LINEA 1 DE TEXTO
+									em LINEA 2 DE TEXTO
+									span LINEA 3 DE TEXTO
+
+							li(class="banner_container model-resaltado-02 showtext")
+								a(class="banner", href="/depto_bbm3i/pages/www.gmail.com")
+									strong linea 1
+									em linea 2
+									span linea 3
+
+				#lateral_doku
+					div(class="content_doku content_doku_display")
+						.content_doku contenido en el margen
+
+				#interior_pie
+					#pie
+						a(class="cmswebmap", href="#") Mapa del sitio
+						span.separador_enlaces  | 
+						a(class="contactar", href="#") Contacto
+						span.separador_enlaces  | 
+						a(class="validador", href="#") Accesibilidad
+						span.separador_enlaces  | 
+						a(class="privacidad", href="#") Política de privacidad
+						p <a href="http://www.ugr.es/pages/creditos">&copy; 2011</a> <span class="separador_enlaces"> | </span> <a href="http://www.ugr.es">Universidad de Granada</a></p>
+
 
