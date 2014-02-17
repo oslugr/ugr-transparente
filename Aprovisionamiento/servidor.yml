@@ -1,0 +1,18 @@
+---
+- hosts: servidor
+  sudo: yes
+  tasks:
+    - name: Instalar node.js
+      apt: name=nodejs state=present
+    - name: instalar express
+      command: npm install express
+    - name: instalar jade
+      command: npm install jade
+    - name: Instalar git
+      apt: name=git state=present
+    - name: Descargamos la aplicación de github
+      action: git repo=https://github.com/oslugr/ugr-transparente.git dest=./ugr-transparente
+      tags: deploy
+    - name: Lanzamos la aplicación
+      command: chdir=/ugr-transparente/Codigo/ nohup node app.js
+
