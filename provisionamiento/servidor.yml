@@ -10,5 +10,5 @@
       action: git repo=https://github.com/oslugr/ugr-transparente.git dest=./ugr-transparente
       tags: deploy
     - name: Lanzamos la aplicación
-      command: chdir=/ugr-transparente/Codigo/ nohup node app.js &
+      command: chdir=./ugr-transparente/Codigo/ nohup node app.js &
 

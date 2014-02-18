@@ -113,7 +113,7 @@ div#cabecera a.enlace_provisional:hover em {
 div#cabecera div#formularios {
     height: 238px;
     background-image: url("../img/general/logo-ugr.png");
-    background-position: right top;
+    background-position: left top;
     border-color: #6D6C71;
 }
 div#cabecera div#formularios span#obituario {
@@ -160,7 +160,14 @@ div#cabecera div.depto {
 }
 
 div#cabecera div.depto.ejemplo_titulo {
-    background-image: url("../img/general/cabecera-departamento_contitulo.png");
+    background-image: url("../img/general/cabecera-departamento.png");
+}
+
+#titulo_stack{
+    float:left;
+    color:white;
+    margin-top: 50px;
+    margin-left:25px;
 }
 
 div#cabecera div.depto.ejemplo_completo {

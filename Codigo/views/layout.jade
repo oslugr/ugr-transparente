@@ -1,10 +1,10 @@
 doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
 html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 	head
-		title NOMBRE DEPARTAMENTO | Universidad de Granada
+		title UGR transparente | Universidad de Granada
 		meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
-		meta(name="description", content="Universidad de Granada - NOMBRE DEPARTAMENTO")
-		meta(name="keywords", content="universidad,granada,NOMBRE DEPARTAMENTO")
+		meta(name="description", content="Universidad de Granada - UGR transparente")
+		meta(name="keywords", content="universidad,granada,UGR transparente")
 		meta(http-equiv="content-language", name="language", content="es")
 		link(rel="shortcut icon", href="/img/favicon.ico", type="image/vnd.microsoft.icon")
 		link(rel="icon", href="/img/favicon.ico", type="image/vnd.microsoft.icon")
@@ -14,59 +14,20 @@ html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 		div(id="contenedor_margenes" class="")
 			div(id="contenedor" class="")
 				div(id="cabecera" class="")
-					h1#cab_inf NOMBRE DEPARTAMENTO
+					h1#cab_inf UGR transparente
 					#formularios
 						a(href="http://www.ugr.es", id="enlace_ugr") Universidad de Granada
 						span.separador_enlaces |
 						div(class="depto ejemplo_titulo")
-							span.titulo_stack Departamento
-							a(href="index.html", id="enlace_stack") NOMBRE DEL DEPARTAMENTO
+							h1#titulo_stack UGR transparente
+							a(href="/", id="enlace_stack") UGR transparente
 						span.separador_enlaces | 
 
-				#rastro-idiomas
-					#rastro
-						ul#rastro_breadcrumb
-							li.first
-								a(class="first", href="index.html") Presentación
+				
 
-				#general
-					#menus
-						div(id="enlaces_secciones", class="mod-menu_secciones")
-							ul
-								li(class="selected tipo2-selected item-first_level")
-									a(href="index.html") Presentación
-								li(class="tipo2 item-first_level")
-									a(href="personal.html") Personal
-								li(class="tipo2 item-first_level")
-									a(href="contacto.html") Localización y Contacto
-								li(class="tipo2 item-first_level")
-									a(href="pruebas.html") Página de muestras
+				block content
 
-						div(id="frecuentes", class="mod-menu_secciones menu_frecuentes", style="display: none;")
-							ul
-								li(class="adicional1 item-first_level")
-									a(href="#") Elemento 1er nivel
-									ul
-										li(class="tipo1 item-second_level")
-											a(href="#") Elemento 2º nivel
-
-					#pagina
-						h1#titulo_pagina
-							span.texto_titulo Presentación
-
-						div(id="contenido", class="sec_interior")
-							.content_doku
-								p
-									| <img width="200" alt="mapa_bbm3i" title="mapa_bbm3i" class="medialeft" src="imagenes/mapa.jpeg" />
-									| <a href="#">Lorem ipsum dolor sit amet</a>, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-
-								p
-									| <img width="200" alt="mapa_bbm3i" title="mapa_bbm3i" class="mediaright" src="imagenes/mapa.jpeg" />
-									| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-
-								p
-									| <img width="200" alt="mapa_bbm3i" title="mapa_bbm3i" class="mediacenter" src="imagenes/mapa.jpeg" />
-									| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+				
 
 				#banners
 					.mod-banners
@@ -108,6 +69,6 @@ html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 						a(class="validador", href="#") Accesibilidad
 						span.separador_enlaces  | 
 						a(class="privacidad", href="#") Política de privacidad
-						p <a href="http://www.ugr.es/pages/creditos">&copy; 2011</a> <span class="separador_enlaces"> | </span> <a href="http://www.ugr.es">Universidad de Granada</a></p>
+						p <a href="http://www.ugr.es/pages/creditos">&copy; 2014</a> <span class="separador_enlaces"> | </span> <a href="http://www.ugr.es">Universidad de Granada</a></p>
 
 
