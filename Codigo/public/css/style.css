@@ -75,9 +75,17 @@ div#cabecera h1#cab_inf {
     width: 712px;
     background-position: center center;
     text-indent: -9999em;
-    background-image: url("../img/general/cabecera-foto.jpg");
+    background-image: url("../imagenes/datos.jpg");
     background-position: 0 0;
     border-color: #6D6C71;
+}
+
+#logoOSL{
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    top:120px;
+    left:740px;
 }
 
 div#cabecera a.enlace_provisional {
