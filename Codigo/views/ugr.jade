@@ -48,4 +48,7 @@ block content
 
 			div(id="contenido", class="sec_interior")
 				.content_doku
-					p #{datos}
+					ul
+						each valor in datos
+							li 
+								a(href="#{valor[1]}") #{valor[0]}
