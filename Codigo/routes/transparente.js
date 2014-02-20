@@ -25,7 +25,7 @@ exports.ugr = function(req, res){
         var cursor = coleccion.find()
  
         cursor.each(function(err, item) {
-                if(item != null) datos[item.nombre]=[item.nombre,item.url];
+                if(item != null) datos.push([item.nombre,item.url,item.metadatos]);
                 
                 // Si no existen mas item que mostrar, cerramos la conexión con con Mongo y renderizamos la página
                 else{
