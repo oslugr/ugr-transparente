@@ -1,0 +1,6 @@
+{ "_id" : 0, "nombre" : "Gobierno" , "url" : "http://www.ugr.es/pages/gobierno" , "metadatos" : "Gobierno de la UGR"}
+{ "_id" : 1, "nombre" : "Consejo de gobierno" , "url" : "http://secretariageneral.ugr.es/pages/org_gobierno/consejo" , "metadatos" : "Consejo de Gobierno de la UGR"}
+{ "_id" : 2, "nombre" : "Claustro" , "url" : "http://secretariageneral.ugr.es/pages/org_gobierno/claustro" , "metadatos" : "Claustro de la UGR"}
+{ "_id" : 3, "nombre" : "Mision y valores" , "url" : "http://wdb.ugr.es/~odap/PlanEstrategico/epigrafe7.pdf‎" , "metadatos" : "Mision y valores de la UGR"}
+{ "_id" : 4, "nombre" : "Plan estrategico" , "url" : "http://wdb.ugr.es/~odap/PlanEstrategico.php" , "metadatos" : "Plan estratégico de la UGR"}
+{ "_id" : 5, "nombre" : "Estatutos" , "url" : "http://secretariageneral.ugr.es/pages/normativa/ugr/estatutos" , "metadatos" : "estatutos de la UGR"}

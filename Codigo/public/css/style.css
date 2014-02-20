@@ -84,8 +84,8 @@ div#cabecera h1#cab_inf {
     position: absolute;
     width: 180px;
     height: 70px;
-    top:120px;
-    left:740px;
+    top:0px;
+    left:780px;
 }
 
 div#cabecera a.enlace_provisional {
