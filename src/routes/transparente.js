@@ -18,14 +18,21 @@
  */
  
 
+//Variable para la base de datos mongodb
+
 var MongoClient = require('mongodb').MongoClient;
 
+
+//Pagina de inicio
 
 exports.index = function(req, res){
   var sec='Presentación';
   var texto='Texto de presentación'
   res.render('index', { seccion: sec , texto: texto});
 };
+
+
+//Pagina de secciónes de la UGR
 
 exports.ugr = function(req, res){
   var sec='UGR';
@@ -49,7 +56,5 @@ exports.ugr = function(req, res){
                 }
         });
   });
-
-
 
 };
