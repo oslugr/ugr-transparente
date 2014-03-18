@@ -4,7 +4,8 @@
  */
 
 var express = require('express');
-var transparente = require('./routes/transparente');
+var index = require('./routes/index');
+var seccionesUgr = require('./routes/seccionesUgr');
 var http = require('http');
 var path = require('path');
 
@@ -30,8 +31,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', transparente.index);
-app.get('/ugr',transparente.ugr)
+app.get('/', index.index);
+app.get('/index.html', index.index);
+app.get('/seccionesugr.html',seccionesUgr.ugr)
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

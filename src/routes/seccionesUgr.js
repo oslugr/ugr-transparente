@@ -1,4 +1,3 @@
-
 /*
   Portal web transparente.ugr.es para publicar datos de la Universidad de Granada
   Copyright (C) 2014  Jaime Torres Benavente
@@ -16,45 +15,66 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
- 
+
 
 //Variable para la base de datos mongodb
 
 var MongoClient = require('mongodb').MongoClient;
 
+//Variable para las configuraciones
+var conf = require('../configuracion');
 
-//Pagina de inicio
-
-exports.index = function(req, res){
-  var sec='Presentación';
-  var texto='Texto de presentación'
-  res.render('index', { seccion: sec , texto: texto});
-};
+//Variable para almacenar los datos 
+var datos = new Array();
 
 
-//Pagina de secciónes de la UGR
+//Funcion para almacenar los datos del recurso que se le pasa
 
-exports.ugr = function(req, res){
-  var sec='UGR';
-  datos = new Array();
+function ObtenerDatos(url){
 
-  //Conexion con MongoDB -> servidor:puerto/nombreBasedeDatos
-  MongoClient.connect('mongodb://localhost:27017/transparente', function(err,db){
+  require('node.io').scrape(function() {
+      this.get(url, function(err, data) {
+          var lines = data.split('\n');
+          for (var line, i = 2, l = lines.length; i < l-1; i++) {
+              line = this.parseValues(lines[i]);
+              datos.push(line);
+              
+          }
+      });
+  });
+
+}
+
+//Funcion para conectarnos a la base de datos y leer la url del recurso que queremos consultar en opendata.ugr.es
+
+MongoClient.connect(conf.BD, function(err,db){
         if(err) throw err;
  
         var coleccion = db.collection('ugr');
  
         var cursor = coleccion.find()
- 
+
         cursor.each(function(err, item) {
-                if(item != null) datos.push([item.nombre,item.url,item.metadatos]);
-                
-                // Si no existen mas item que mostrar, cerramos la conexión con con Mongo y renderizamos la página
+                if(item != null)
+                  url=item.url
+                // Si no existen mas item que mostrar, cerramos la conexión con con Mongo y obtenemos los datos 
                 else{
+
                   db.close();
-                  res.render('ugr', { seccion: sec , datos: datos});
+                  ObtenerDatos(url);
+
                 }
         });
   });
 
+
+
+
+// Funcion para gestionar la página de secciones de la ugr
+
+exports.ugr = function(req, res){
+  res.render('ugr', { seccion: conf.sec2 , datos: datos});
+
 };
+
+  
