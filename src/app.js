@@ -21,6 +21,9 @@ app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(function(req, res, next){
+    res.status(404).render('404_error', {titulo: "Page not found (Error 404)", texto: "Lo siento, la página no existe o está temporalmente inaccesible"});
+});
 
 // development only
 if ('development' == app.get('env')) {
