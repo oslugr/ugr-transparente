@@ -48,13 +48,13 @@ function ObtenerDatos(url){
 
 //Funcion para conectarnos a la base de datos y leer la url del recurso que queremos consultar en opendata.ugr.es
 
-function conectaBD(){
+function conectarBD(){
     MongoClient.connect(conf.BD, function(err,db){
           if(err) throw err;
    
-          var coleccion = db.collection('ugr');
+          var coleccion = db.collection('datosEconomicos');
    
-          var cursor = coleccion.find()
+          var cursor = coleccion.find({"tipo" : "ingresos"});
 
           cursor.each(function(err, item) {
                   if(item != null)
@@ -72,13 +72,12 @@ function conectaBD(){
 
 
 
-
 // Funcion para gestionar la página de secciones de la ugr
 
-exports.ugr = function(req, res){
-  conectaBD();
-  res.render('ugr', { seccion: conf.sec2 , datos: datos});
+exports.seccionEconomica = function(req, res){
+
+  conectarBD();
+  tam=datos.length;
+  res.render('infoEco', { seccion: conf.sec3 , datos: datos, tam: tam});
 
 };
-
-  

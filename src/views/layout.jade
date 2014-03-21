@@ -28,6 +28,33 @@ html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 		link(rel="icon", href="/img/favicon.ico", type="image/vnd.microsoft.icon")
 		link(rel="stylesheet", id="css-style", type="text/css", href="css/style.css", media="all")
 
+		if seccion=="Información Económica"
+			script(type='text/javascript', src="https://www.google.com/jsapi") 
+
+			script(type='text/javascript').
+				google.load('visualization', '1', {packages:['table']});
+				google.setOnLoadCallback(drawTable);
+				function drawTable() {
+					var data = new google.visualization.DataTable();
+
+					data.addColumn('number', 'Index');
+					data.addColumn('number', 'Fecha');
+					data.addColumn('number', 'Cod_capitulo');
+					data.addColumn('string', 'Capitulo');
+					data.addColumn('number', 'Cod_articulo');
+					data.addColumn('string', 'Articulo');
+					data.addColumn('number', 'Cod_concepto');
+					data.addColumn('string', 'Concepto');
+					data.addColumn('number', 'Cod_subconcepto');
+					data.addColumn('string', 'Subconcepto');
+					data.addColumn('number', 'Cantidad');
+					data.addRows([['Mike',  {v: 10000, f: '$10,000'}, true],['Jim',   {v:8000,   f: '$8,000'},  false],['Alice', {v: 12500, f: '$12,500'}, true],['Bob',   {v: 7000,  f: '$7,000'},  true]]);
+
+				var table = new google.visualization.Table(document.getElementById('table_div'));
+				table.draw(data, {showRowNumber: true});
+
+				}
+
 	body
 		div(id="contenedor_margenes" class="")
 			div(id="contenedor" class="")

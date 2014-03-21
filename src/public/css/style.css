@@ -1804,3 +1804,37 @@ li.model-resaltado-02 a.banner {
 li.model-resaltado-02 a.banner:hover {
     background-image: url("../img/banners/resaltado-02_on.png");
 }
+
+
+/*********************/
+/* Sección UGR     */
+/*********************/
+
+.content_doku a{
+    float:left;
+    background-color: #F2F2F2;
+    margin-right: 3%;
+    margin-bottom: 5%; 
+    border:3px outset grey;
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/***************************************/
+/* Sección información Económica       */
+/***************************************/
+
+.content_doku section article{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5%;
+}
+
+.content_doku section article h2{
+    text-align: center;
+    border-bottom: thin dashed #0E344D;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

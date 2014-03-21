@@ -41,3 +41,9 @@ exports.texto="El portal de Transparencia de la Universidad de Granada es un esf
 
 //Nombre de la sección
 exports.sec2='UGR';
+
+
+// ************ Información Económica de la UGR ************
+
+//Nombre de la sección
+exports.sec3='Información Económica'

@@ -32,10 +32,10 @@ block content
 					li(class="tipo2 item-first_level")
 						a(href="/index.html") Presentación
 
-					li(class="selected tipo2-selected item-first_level")
+					li(class="tipo2 item-first_level")
 						a(href="/seccionesugr.html") UGR
 
-					li(class="tipo2 item-first_level")
+					li(class="selected tipo2-selected item-first_level")
 						a(href="infoEconomica.html") Información Económica
 
 
@@ -53,6 +53,15 @@ block content
 
 			div(id="contenido", class="sec_interior")
 				.content_doku
-					each valor in datos
-						a(href="#{valor[1]}") #{valor[0]}
+					section
+						article
+							h2 Estado de Ingresos 2013
+							p Datos sobre los ingresos en 2013
+							div(id='table_div')
+
+						article
+							h2 Estado de Gastos 2013
+							
+							p #{tam}
+
 
