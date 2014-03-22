@@ -1810,16 +1810,9 @@ li.model-resaltado-02 a.banner:hover {
 /* Sección UGR     */
 /*********************/
 
-.content_doku a{
-    float:left;
-    background-color: #F2F2F2;
-    margin-right: 3%;
-    margin-bottom: 5%; 
-    border:3px outset grey;
-    width: 210px;
-    height: 40px;
-    text-align: center;
-    padding-top: 20px;
+.enlacesUGR{
+    font-size: 1.5em;
+    margin-bottom: 30px;
 }
 
 /***************************************/
@@ -1837,4 +1830,36 @@ li.model-resaltado-02 a.banner:hover {
     border-bottom: thin dashed #0E344D;
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+
+#table_div, #table_div2 {
+    overflow:scroll;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.descargar{
+    float:left;
+    margin-top: 15px;
+    margin-bottom:60px;
+    margin-left:70px;
+   padding:1% 2%;   
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   font-size: 1.2em;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: thin solid #f1f1f1;
+   border-radius: 5px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.descargar:hover{
+    opacity:.55;
+    cursor: pointer; 
 }

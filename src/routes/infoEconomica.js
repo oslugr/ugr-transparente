@@ -27,19 +27,39 @@ var conf = require('../configuracion');
 //Variable para almacenar los datos 
 var datos = new Array();
 
+//Variable para almacenar los datos 
+var datos2 = new Array();
+
+
+
+
+//Variable para la url
+var url;
 
 //Funcion para almacenar los datos del recurso que se le pasa
 
-function ObtenerDatos(url){
+function ObtenerDatos(url,tipo){
 
   require('node.io').scrape(function() {
       this.get(url, function(err, data) {
           var lines = data.split('\n');
-          datos=new Array();
-          for (var line, i = 2, l = lines.length; i < l-1; i++) {
-              line = this.parseValues(lines[i]);
-              datos.push(line);
-              
+          //Ingresos
+          if(tipo==1){
+            datos=new Array();
+            for (var line, i = 2, l = lines.length; i < l-1; i++) {
+                line = this.parseValues(lines[i]);
+                datos.push(line);
+                
+            }
+          }
+          //Gastos
+          else {
+            datos2=new Array();
+            for (var line, i = 2, l = lines.length; i < l-1; i++) {
+                line = this.parseValues(lines[i]);
+                datos2.push(line);
+                
+            }           
           }
       });
   });
@@ -48,14 +68,16 @@ function ObtenerDatos(url){
 
 //Funcion para conectarnos a la base de datos y leer la url del recurso que queremos consultar en opendata.ugr.es
 
-function conectarBD(){
+function conectarBD(tipo){
     MongoClient.connect(conf.BD, function(err,db){
           if(err) throw err;
    
           var coleccion = db.collection('datosEconomicos');
    
-          var cursor = coleccion.find({"tipo" : "ingresos"});
-
+          if(tipo==1)
+            var cursor = coleccion.find({"tipo" : "ingresos"});
+          else
+            var cursor = coleccion.find({"tipo" : "gastos"});
           cursor.each(function(err, item) {
                   if(item != null)
                     url=item.url
@@ -63,7 +85,7 @@ function conectarBD(){
                   else{
 
                     db.close();
-                    ObtenerDatos(url);
+                    ObtenerDatos(url,tipo);
 
                   }
           });
@@ -75,9 +97,10 @@ function conectarBD(){
 // Funcion para gestionar la página de secciones de la ugr
 
 exports.seccionEconomica = function(req, res){
-
-  conectarBD();
+  conectarBD(1);
   tam=datos.length;
-  res.render('infoEco', { seccion: conf.sec3 , datos: datos, tam: tam});
+  conectarBD(2);
+  tam2=datos2.length;
+  res.render('infoEco', { seccion: conf.sec3 , datos: datos, datos2: datos2, tam: tam, tam2: tam2});
 
 };
