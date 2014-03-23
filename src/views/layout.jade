@@ -28,6 +28,16 @@ html(xmlns="http://www.w3.org/1999/xhtml", lang="es", xml:lang="es")
 		link(rel="icon", href="/img/favicon.ico", type="image/vnd.microsoft.icon")
 		link(rel="stylesheet", id="css-style", type="text/css", href="css/style.css", media="all")
 
+		script(type='text/javascript').
+			function mostrar(){
+				var enlaces=document.getElementById("ocultos");
+				if(enlaces.style.display == "none"){
+					enlaces.style.display = "inline";
+				}else
+					enlaces.style.display = "none";
+			}
+
+
 		if seccion=="Información Económica"
 			script(type='text/javascript', src="https://www.google.com/jsapi") 
 

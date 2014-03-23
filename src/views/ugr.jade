@@ -54,7 +54,17 @@ block content
 			div(id="contenido", class="sec_interior")
 				.content_doku
 					ul
-						each valor in datos
-							li
-								a(class="enlacesUGR" , href="#{valor[1]}") #{valor[0]}
+						- for (var i = 0; i < 5; i++)
+							if datos[i][0]!="Plan estratégico 2006-2010"
+								if datos[i][0]!="Plan estratégico 2010-2014"
+									li
+										a(class="enlacesUGR" , href="#{datos[i][1]}") #{datos[i][0]}
+							else
+								li
+									p(id="texto_enlaceugr" , onclick="mostrar();") Plan estratégico
+										ul#ocultos(style="display:none;")
+											li
+												a(class="enlacesUGR" , href="#{datos[i][1]}") #{datos[i][0]}
+											li
+												a(class="enlacesUGR" , href="#{datos[i+1][1]}") #{datos[i+1][0]}
 

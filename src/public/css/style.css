@@ -14,16 +14,16 @@ a img {
 	border: medium none;
 }
 
-a {
+a, #texto_enlaceugr{
     color: #543342;
     text-decoration: none;
 }
 
-a:hover {
+a:hover, #texto_enlaceugr:hover {
     color: #DD3B15;
 }
 
-a, a:hover, a:visited, a:active {
+a, a:hover, a:visited, a:active,#texto_enlaceugr, #texto_enlaceugr:visited, #texto_enlaceugr:active,#texto_enlaceugr:hover {
     outline: medium none;
 }
 
@@ -1813,6 +1813,20 @@ li.model-resaltado-02 a.banner:hover {
 .enlacesUGR{
     font-size: 1.5em;
     margin-bottom: 30px;
+}
+
+#texto_enlaceugr{
+    font-size: 1.5em;
+    color:#404040;
+    margin-bottom: 0%;
+}
+
+#ocultos li{
+    margin-left: 30px;
+}
+
+#texto_enlaceugr:hover{
+    cursor: pointer;
 }
 
 /***************************************/
