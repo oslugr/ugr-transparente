@@ -1,0 +1,10 @@
+{'nombre' : 'presupuestos', 'tipo' : 'ingresos', 'año' : 2013 , 'url' : 'http://opendata.ugr.es:5000/dataset/57b77948-6ec2-479a-8746-30162b61f15b/resource/1afce6d6-e22e-4bfe-96c9-9b65b23011a8/download/ugrestadoingresos2013.csv'}
+
+{'nombre' : 'matriculas', 'año' : 2010 , 'url' : 'http://opendata.ugr.es:5000/dataset/f8eabf0b-650b-4adf-bbe5-f2affbdaa35d/resource/728af7b8-7c11-4b4f-b2d9-ad082499cc76/download/2010.csv'}
+
+{'nombre' : 'matriculas', 'año' : 2011 , 'url' : 'http://opendata.ugr.es:5000/dataset/91330940-78de-4cbc-a02e-1898f171552b/resource/84f09d43-2541-4781-926a-bda87d5c463d/download/2011.csv'}
+
+
+
+
+

@@ -1846,7 +1846,7 @@ li.model-resaltado-02 a.banner:hover {
     padding-bottom: 0px;
 }
 
-#table_div, #table_div2 {
+.tabla {
     overflow:scroll;
     height: 400px;
     margin-top: 50px;

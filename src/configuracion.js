@@ -47,3 +47,9 @@ exports.sec2='UGR';
 
 //Nombre de la sección
 exports.sec3='Información Económica'
+
+
+// ************ Alumnos ************
+
+//nombre de la Seccion
+exports.sec4='Alumnos'

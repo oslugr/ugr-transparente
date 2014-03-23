@@ -25,10 +25,10 @@ var MongoClient = require('mongodb').MongoClient;
 var conf = require('../configuracion');
 
 //Variable para almacenar los datos 
-var datos = new Array();
-
-//Variable para almacenar los datos 
+var datos = new Array(); 
 var datos2 = new Array();
+var datos3 = new Array();
+
 
 
 
@@ -43,21 +43,30 @@ function ObtenerDatos(url,tipo){
   require('node.io').scrape(function() {
       this.get(url, function(err, data) {
           var lines = data.split('\n');
-          //Ingresos
+          //2010
           if(tipo==1){
             datos=new Array();
-            for (var line, i = 2, l = lines.length; i < l-1; i++) {
+            for (var line, i = 1, l = lines.length; i < l; i++) {
                 line = this.parseValues(lines[i]);
                 datos.push(line);
                 
             }
           }
-          //Gastos
-          else {
+          //2011
+          else if(tipo==2){
             datos2=new Array();
-            for (var line, i = 2, l = lines.length; i < l-1; i++) {
+            for (var line, i = 1, l = lines.length; i < l; i++) {
                 line = this.parseValues(lines[i]);
                 datos2.push(line);
+                
+            }           
+          }
+          //2012
+          else if(tipo==3){
+            datos3=new Array();
+            for (var line, i = 1, l = lines.length; i < l; i++) {
+                line = this.parseValues(lines[i]);
+                datos3.push(line);
                 
             }           
           }
@@ -72,12 +81,14 @@ function conectarBD(tipo){
     MongoClient.connect(conf.BD, function(err,db){
           if(err) throw err;
    
-          var coleccion = db.collection('datosEconomicos');
+          var coleccion = db.collection('alumnos');
    
           if(tipo==1)
-            var cursor = coleccion.find({"tipo" : "ingresos"});
-          else
-            var cursor = coleccion.find({"tipo" : "gastos"});
+            var cursor = coleccion.find({"año" : 2010});
+          else if(tipo==2)
+            var cursor = coleccion.find({"año" : 2011});
+          else if(tipo==3)
+            var cursor = coleccion.find({"año" : 2012});
           cursor.each(function(err, item) {
                   if(item != null)
                     url=item.url
@@ -97,11 +108,13 @@ function conectarBD(tipo){
 
 // Funcion para gestionar la página de secciones de la ugr
 
-exports.seccionEconomica = function(req, res){
+exports.alumnos = function(req, res){
   conectarBD(1);
   tam=datos.length;
   conectarBD(2);
   tam2=datos2.length;
-  res.render('infoEco', { seccion: conf.sec3 , datos: datos, datos2: datos2, tam: tam, tam2: tam2});
+  conectarBD(3);
+  tam3=datos3.length;
+  res.render('alumnos', { seccion: conf.sec4 , datos: datos, datos2: datos2, datos3: datos3 , tam: tam, tam2: tam2, tam3: tam3});
 
 };
