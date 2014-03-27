@@ -23,7 +23,7 @@ var conf = require('../configuracion');
 //Pagina de inicio
 
 exports.index = function(req, res){
-  res.render('index', { seccion: conf.sec1 , texto: conf.texto});
+  res.render('index', { seccion: conf.sec1, enlaces: conf.enlaces});
 };
 
 

@@ -31,7 +31,10 @@ exports.BD='mongodb://localhost:27017/transparente';
 // ************ index ************
 
 //Nombre de la sección
-exports.sec1='Presentación';
+exports.sec1='Inicio';
+
+//Nombre, href y id para cada enlace
+exports.enlaces=[['Ugr','/seccionesugr.html','en_ugr'],['Información económica','infoEconomica.html','en_economica'],['Alumnos','alumnos.html','en_alumnos']];
 
 //Texto del index
 exports.texto="El portal de Transparencia de la Universidad de Granada es un esfuerzo por publicar y facilitar el acceso a sus datos";

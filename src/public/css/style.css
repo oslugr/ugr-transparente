@@ -1805,6 +1805,28 @@ li.model-resaltado-02 a.banner:hover {
     background-image: url("../img/banners/resaltado-02_on.png");
 }
 
+/*********************/
+/****** index ********/
+/*********************/
+
+.enlaces_index{
+    float:left;
+    text-align: center;
+    color:white;
+    width: 100px;
+    height: 60px;
+    padding-top: 40px;
+    border:thin solid black;
+    background-image: url("../imagenes/ugr.jpg");
+
+}
+
+.enlaces_index p{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.5);
+}
+
 
 /*********************/
 /* Sección UGR     */

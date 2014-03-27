@@ -29,7 +29,7 @@ block content
 			div(id="enlaces_secciones", class="mod-menu_secciones")
 				ul
 					li(class="selected tipo2-selected item-first_level")
-						a(href="/index.html") Presentación
+						a(href="/index.html") Inicio
 
 					li(class="tipo2 item-first_level")
 						a(href="/seccionesugr.html") UGR
@@ -55,4 +55,6 @@ block content
 
 			div(id="contenido", class="sec_interior")
 				.content_doku
-					p #{texto}
+					each enlace in enlaces
+						a(href="#{enlace[1]}", id="#{enlace[2]}", class="enlaces_index")
+							p #{enlace[0]}
