@@ -1,0 +1,19 @@
+{"dataset":"desglose-gastos","servidor":"http://opendata.ugr.es/dataset/","url":"presupuesto-ugr-2014-estado-de-gastos/resource/"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Estado de gastos: general", "url":"3bf980aa-ab4e-4e76-a116-1745a6963e0b","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/3bf980aa-ab4e-4e76-a116-1745a6963e0b/download/estadodegastos.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Estado resumen cap. 1: gastos de personal", "url":"57d12d9c-0a67-4e09-adc0-64a8551d63ad","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/57d12d9c-0a67-4e09-adc0-64a8551d63ad/download/estadoresumencapitulo1gastosdepersonal2014.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Gastos por artículos", "url":"57d12d9c-0a67-4e09-adc0-64a8551d63ad","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/9cde1e41-98c0-4441-a8bb-bc08704ea78c/download/gastosporarticulos.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Estudio sobre coste mantenimiento Ceuta y Melilla", "url":"1f9e6edd-9cdc-43eb-ae32-cd773ac5c47b","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/1f9e6edd-9cdc-43eb-ae32-cd773ac5c47b/download/estudiosobrecostemantenimientodeceutaymelilla2014.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Programa 321B: estado de gastos", "url":"91ae83ea-dd1f-4704-84e3-b1d5213f610c","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/91ae83ea-dd1f-4704-84e3-b1d5213f610c/download/programa321bestadodegastos.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Programa 422D: estado de gastos", "url":"64483c07-1b42-4e51-ba17-d3a3aea5f81a","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/64483c07-1b42-4e51-ba17-d3a3aea5f81a/download/programa422destadodegastos.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Programa 451A: estado de gastos", "url":"1c860db9-403e-4b55-94c7-5d45d2729884","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/1c860db9-403e-4b55-94c7-5d45d2729884/download/programa451aestadodegastos.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Estado de gastos: resumen", "url":"eacfacff-9a2b-4c6c-8e73-a398c03b296e","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/eacfacff-9a2b-4c6c-8e73-a398c03b296e/download/estadodegastosresumenparagrafica.csv"}
+
+{"dataset":"desglose-gastos","categoria":["infoEco"],"nombre":"Estado de gastos: comparativa 2012 - 2014", "url":"a8a6fe88-b95f-4bb8-8622-ea491b5e9fb9","descarga":"33b2c2a4-5f63-4374-8ef0-9ea52d24c46f/resource/a8a6fe88-b95f-4bb8-8622-ea491b5e9fb9/download/comparativa.csv"}

@@ -1,0 +1,51 @@
+{"dataset":"presupuesto","servidor":"http://opendata.ugr.es/dataset/","url":"presupuesto-2014-para-tic/resource/"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Créditos distribuibles a centros", "url":"e0ba1fab-ebb7-4d00-ac69-db3a5b971b03","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/e0ba1fab-ebb7-4d00-ac69-db3a5b971b03/download/creditosdistribuiblesacentros.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Créditos distribuibles a centros: deducir (2014)", "url":"25e7e315-758b-4f51-b9c7-7904a378fffd","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/25e7e315-758b-4f51-b9c7-7904a378fffd/download/creditosdistribuiblesacentrosdeducir2014.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Créditos distribuibles a centros: detraer (2014)", "url":"ce7e10ce-e7ff-4ebb-a2c3-c6f29482d8cd","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/ce7e10ce-e7ff-4ebb-a2c3-c6f29482d8cd/download/creditosdistribuiblesacentrosdetraer2014.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Estado resumen de los créditos distribuibles", "url":"52e4ca4f-f1cc-4653-ba9d-414ee1cb2b42","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/52e4ca4f-f1cc-4653-ba9d-414ee1cb2b42/download/estadoresumendeloscreditosdistribuibles.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Docente contratado", "url":"b82ded6e-5188-4169-aeac-aec8c159cedf","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/b82ded6e-5188-4169-aeac-aec8c159cedf/download/docentecontratado.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Máster y otros", "url":"a7892d77-4d83-4d84-9fca-7625e8688b2b","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/a7892d77-4d83-4d84-9fca-7625e8688b2b/download/masteryotros.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Actuaciones programa 321B: estructura y gestión universitaria", "url":"0511325c-cea7-44fc-af3e-40eae0ea9e17","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/0511325c-cea7-44fc-af3e-40eae0ea9e17/download/actuacionesprograma321bestructuraygestionuniversitaria.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Actuaciones 422D: enseñanzas universitarias", "url":"3d9b4331-408f-41b6-bca3-65891868b471","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/3d9b4331-408f-41b6-bca3-65891868b471/download/actuacionesprograma422.densenanzasuniversitarias.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Actuaciones 541A: investigación", "url":"9fef022b-8c33-4acf-bccf-2790cce63223","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/9fef022b-8c33-4acf-bccf-2790cce63223/download/actuacionesprograma541ainvestigacion.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 1ª: vicerrectorados, centros y unidades", "url":"662e54c2-edbb-40f3-ab0f-2ae3b657186e","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/662e54c2-edbb-40f3-ab0f-2ae3b657186e/download/seccion1vicerrectoradoscentrosyunidades.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 2ª: gastos estructurales", "url":"e23eca20-4eeb-499a-8f27-ff8c2c27f746","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/e23eca20-4eeb-499a-8f27-ff8c2c27f746/download/seccion2gastosestructurales.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 3ª: actividad académica", "url":"b956608f-9c4a-40ec-9149-79414d65d89b","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/b956608f-9c4a-40ec-9149-79414d65d89b/download/seccion3actividadacademica.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 3ª: actividad académica y mantenimiento", "url":"fea617d3-0e3a-459a-963f-1afe94f03128","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/fea617d3-0e3a-459a-963f-1afe94f03128/download/seccion3actividadacademicaymantemiento.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 3ª: coeficiente superficie ponderada", "url":"fcdd8576-301f-45f9-9626-066de902932a","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/fcdd8576-301f-45f9-9626-066de902932a/download/seccion3coeficientesuperficieponderada.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 3ª: mantenimiento", "url":"a60c519e-cc9b-4e2a-8d82-00fa8f8526b4","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/a60c519e-cc9b-4e2a-8d82-00fa8f8526b4/download/seccion3mantenimiento.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Sección 3ª: superficie ponderada", "url":"e62d1c87-c9fe-4046-9f6f-ae31a877c807","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/e62d1c87-c9fe-4046-9f6f-ae31a877c807/download/seccion3superficieponderada.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Distribución económica de créditos", "url":"8ac7f52d-77bb-45c2-8fdf-1682dac5ea85","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/8ac7f52d-77bb-45c2-8fdf-1682dac5ea85/download/distribucioneconomica.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Créditos matriculados", "url":"bf54ff57-4ad5-4710-bee7-afb31e4f74c2","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/bf54ff57-4ad5-4710-bee7-afb31e4f74c2/download/matriculas.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"PDI y PAS asignados a departamentos", "url":"bad66154-396b-4116-8b30-16e0b21905e6","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/bad66154-396b-4116-8b30-16e0b21905e6/download/plantillas.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Centro de Lenguas Modernas", "url":"e10a95ec-1d3c-48cc-9e69-5e8ff0b282a9","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/e10a95ec-1d3c-48cc-9e69-5e8ff0b282a9/download/evoluciondeperdidasygananciasdelcentrodelenguasmodernas.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Cajas habilitadas", "url":"b8c4ba7a-26fc-4d5a-80a6-cfb69dbc053b","descarga":"http://opendata.ugr.es/dataset/6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/b8c4ba7a-26fc-4d5a-80a6-cfb69dbc053b/download/cajashabilitadas.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Cálculo del límite máximo de gasto", "url":"63062250-6058-4f2d-8fe1-62e61ac07597","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/63062250-6058-4f2d-8fe1-62e61ac07597/download/calculodelimportedellimitemaximodegastoparaelejercicioeconomico2014.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Proyecciones financieras 2014 - 2016", "url":"a6b6fb54-27b6-47a3-b28f-3fcee9e21169","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/a6b6fb54-27b6-47a3-b28f-3fcee9e21169/download/proyeccionesfinancieras20142016.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Previsiones de reintegro", "url":"38664b31-eaa1-4a60-ab9a-10c7f2a70601","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/38664b31-eaa1-4a60-ab9a-10c7f2a70601/download/previsionesdereintegrodeanticiposreintegrables2014.csv"}
+
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Tarifas por el uso de locales e instalaciones", "url":"5ee7cd87-fecd-40a9-802c-caaabac254da","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/5ee7cd87-fecd-40a9-802c-caaabac254da/download/tarifasporelusodelocaleseinstalaciones.csv"}

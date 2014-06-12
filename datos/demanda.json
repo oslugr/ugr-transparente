@@ -1,0 +1,11 @@
+{"dataset":"demanda","servidor":"http://opendata.ugr.es/dataset/","url":"demanda-academica/resource/"}
+
+{"dataset":"demanda","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: convocatoria extraordinaria de septiembre", "url":"9c2c1a19-dfc4-4bdc-8dc6-8e3bacc594bd","descarga":"fc43d5d9-7c70-495c-a6d6-312c05ed10c9/resource/9c2c1a19-dfc4-4bdc-8dc6-8e3bacc594bd/download/estadisticadelapruebadeaccesoparalosestudiosuniversitariosdegrado.convocatoriaordinaria"}
+
+{"dataset":"demanda","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: convocatoria ordinaria de junio", "url":"e2b6442f-733a-4865-b665-a8e4853a1203","descarga":"fc43d5d9-7c70-495c-a6d6-312c05ed10c9/resource/e2b6442f-733a-4865-b665-a8e4853a1203/download/estadisticadelapruebadeaccesoparalosestudiosuniversitariosdegrado.convocatoriaordinaria"}
+
+{"dataset":"demanda","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 25 años", "url":"294ee60a-1191-4b19-bc3d-b6ebfb7c4cf2","descarga":"fc43d5d9-7c70-495c-a6d6-312c05ed10c9/resource/294ee60a-1191-4b19-bc3d-b6ebfb7c4cf2/download/estadisticadelapruebadeaccesoparamayoresde25anos.curso20122013.csv"}
+
+{"dataset":"demanda","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 45 años", "url":"5be658e6-f3a9-4d37-8a24-d53eae0aae89","descarga":"fc43d5d9-7c70-495c-a6d6-312c05ed10c9/resource/5be658e6-f3a9-4d37-8a24-d53eae0aae89/download/45anos.csv"}
+
+{"dataset":"demanda","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 40 años", "url":"329117a4-1c70-4850-b71e-d7b87dbc4fea","descarga":"fc43d5d9-7c70-495c-a6d6-312c05ed10c9/resource/329117a4-1c70-4850-b71e-d7b87dbc4fea/download/40anos.csv"}

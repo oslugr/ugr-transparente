@@ -1,0 +1,17 @@
+{"dataset":"desglose-ingresos","servidor":"http://opendata.ugr.es/dataset/","url":"presupuesto-ugr-2014-desglose-de-ingresos/resource/"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Detalle por subconcepto, cap. 3", "url":"09b2c0be-a6de-4792-af74-3a01430697d3","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/09b2c0be-a6de-4792-af74-3a01430697d3/download/estadodeingresosdetalleporsubconceptocapitulo3.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Detalle por subconcepto, cap. 4", "url":"e66940ec-13a8-4e89-a3ac-6ba530492a69","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/e66940ec-13a8-4e89-a3ac-6ba530492a69/download/estadodeingresosdetalleporsubconceptocapitulo4.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Detalle por subconcepto, cap. 5", "url":"4f3eb9d9-ff9b-4b1a-98b5-7177e9fac60b","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/4f3eb9d9-ff9b-4b1a-98b5-7177e9fac60b/download/estadodeingresosdetalleporsubconceptocapitulo5.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Detalle por subconcepto, cap. 7", "url":"5f6b5053-5898-48db-a46c-7ea6a11bb2a3","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/5f6b5053-5898-48db-a46c-7ea6a11bb2a3/download/estadodeingresosdetalleporsubconceptocapitulo7.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Detalle por subconcepto, cap. 8", "url":"8d8bdc55-50c3-43c0-a203-3010d11f3ec2","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/8d8bdc55-50c3-43c0-a203-3010d11f3ec2/download/estadodeingresosdetalleporsubconceptocapitulo8.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Detalle por subconcepto (total)", "url":"17645a87-0cfb-4d4f-b415-c16ccbd7433c","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/17645a87-0cfb-4d4f-b415-c16ccbd7433c/download/estadodeingresosdetalleporsubconceptototal.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Estado de ingresos: resumen por artículos", "url":"fdeaae36-593f-46c2-99d9-4a1318d69101","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/fdeaae36-593f-46c2-99d9-4a1318d69101/download/estadodeingresosresumenporarticulos.csv"}
+
+{"dataset":"desglose-ingresos","categoria":["infoEco"],"nombre":"Estado de ingresos: comparativa 2012 - 2014", "url":"884a40fb-33a3-4566-b3cf-ec91cdc111b4","descarga":"b80f181b-f4b1-4bc2-bea9-3a0b7718c36d/resource/884a40fb-33a3-4566-b3cf-ec91cdc111b4/download/estadodeingresoscomparativa20122014.csv"}
