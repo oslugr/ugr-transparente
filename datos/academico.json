@@ -1,0 +1,7 @@
+{"dataset":"academico","servidor":"http://opendata.ugr.es/dataset/","url":"academico/resource/"}
+
+{"dataset":"academico","categoria":["resultados"],"nombre":"Duración media de los estudios", "url":"b8a65ae8-4aa9-4910-8949-505ec649a48e","descarga":"5334df3b-4a3d-4f80-b09f-7801f673057b/resource/b8a65ae8-4aa9-4910-8949-505ec649a48e/download/duracionmediadelosestudiostotaltitulaciones.csv"}
+
+{"dataset":"academico","categoria":["resultados"],"nombre":"Número medio de créditos", "url":"0a22981d-dfa7-472b-b4a6-c1c6adf516d5","descarga":"5334df3b-4a3d-4f80-b09f-7801f673057b/resource/0a22981d-dfa7-472b-b4a6-c1c6adf516d5/download/numeromediodecreditostotal.csv"}
+
+{"dataset":"academico","categoria":["resultados"],"nombre":"Tasa de rendimiento, éxito y evaluación", "url":"403534ce-9135-4d60-9f8a-0ad035aceaf1","descarga":"5334df3b-4a3d-4f80-b09f-7801f673057b/resource/403534ce-9135-4d60-9f8a-0ad035aceaf1/download/tasaderendimientoexitoyevaluacion.csv"}

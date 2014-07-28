@@ -1,0 +1,9 @@
+{"dataset":"normativasUGR","servidor":"http://opendata.ugr.es/dataset/","url":"normativa-de-la-universidad/resource/"}
+
+{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Convenios: general", "url":"68f87a74-71f5-4846-92de-8cbb44885199","descarga":"a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/68f87a74-71f5-4846-92de-8cbb44885199/download/conveniosgeneral.csv"}
+
+{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Convenio colectivo", "url":"2f1f8385-3304-4861-aaa0-2279e61f82c9","descarga":"a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/2f1f8385-3304-4861-aaa0-2279e61f82c9/download/resolucionde10defebrerode2004.pdf"}
+
+{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Normativa: enlaces", "url":"58961aa1-d980-4f5b-9c12-fa63538999c6","descarga":"a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/58961aa1-d980-4f5b-9c12-fa63538999c6/download/enlacesnormativa.csv"}
+
+{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Ley Orgánica de Universidades", "url":"1d7347ef-9b23-4641-a340-a23f28317b19","descarga":"http://opendata.ugr.es/dataset/a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/1d7347ef-9b23-4641-a340-a23f28317b19/download/lousg.pdf"}

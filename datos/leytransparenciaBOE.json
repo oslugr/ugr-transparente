@@ -1,0 +1,5 @@
+{"dataset":"leytransparenciaBOE","servidor":"http://opendata.ugr.es/dataset/","url":"ley-de-transparencia/resource/"}
+
+{"dataset":"leytransparenciaBOE","categoria":["normativas"],"nombre":"Resumen: Ley de Transparencia", "url":"a057d063-a9c8-446f-b28e-6922cf4899b2","descarga":"0b9ebc44-3a2d-4dd7-af0a-b8f6f386aca8/resource/a057d063-a9c8-446f-b28e-6922cf4899b2/download/leydetransparencia.csv"}
+
+{"dataset":"leytransparenciaBOE","categoria":["normativas"],"nombre":"Boletín Oficial del Estado: Ley de Transparencia", "url":"ac3ec6f1-67b9-479e-80ee-57f69f768c8b","descarga":"0b9ebc44-3a2d-4dd7-af0a-b8f6f386aca8/resource/ac3ec6f1-67b9-479e-80ee-57f69f768c8b/download/boea201312887.pdf"}

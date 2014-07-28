@@ -1,12 +1,14 @@
 {"dataset":"informacion-salarial","servidor":"http://opendata.ugr.es/dataset/","url":"informacion-salarial/resource/"}
 
+{"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Análisis total plantilla: género", "url":"d17eaaf2-e21e-4c4a-827a-a4e4aed85834","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/d17eaaf2-e21e-4c4a-827a-a4e4aed85834/download/analisisdelpdifuncionarioporgenerodelaplantilladelaugra10122013.csv"}
+
 {"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Análisis PAS funcionario: género", "url":"5a47a757-8670-4880-8fa0-446d054adf70","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/5a47a757-8670-4880-8fa0-446d054adf70/download/analisisdelpasfuncionarioporgenerodelaplantilladelaugra10122013.csv"}
 
 {"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Análisis PAS laboral: género","url":"a32645c4-2d1e-4e8d-8110-e2fa054c3ff1","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/a32645c4-2d1e-4e8d-8110-e2fa054c3ff1/download/analisisdelpaslaboralporgenerodelaplantilladelaugra10122013.csv"}
 
 {"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Análisis PDI contratado: género","url":"d1d51183-7ad6-4c36-b71d-54db87da9e9d","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/d1d51183-7ad6-4c36-b71d-54db87da9e9d/download/analisisdelpdicontratadoporgenerodelaplantilladelaugra10122013.csv"}
 
-{"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Análisis por género de la plantilla UGR", "url":"5b232a6f-4320-4078-acfb-52400aa088a9","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/d17eaaf2-e21e-4c4a-827a-a4e4aed85834/download/analisisporgenerodelaplantilladelaugra10122013.csv"}
+{"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Incorporaciones por género: PAS y PDI", "url":"5b232a6f-4320-4078-acfb-52400aa088a9","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/5b232a6f-4320-4078-acfb-52400aa088a9/download/analisispasypdiporgenerodelaplantilladelaugrincorporacionesultimos10anos.csv"}
 
 {"dataset":"informacion-salarial","categoria":["personal"],"nombre":"Antigüedad en años por colectivo: PAS", "url":"83aeb2be-a3bc-40da-885e-19bf0cbb8ab0","descarga":"6b39c91f-f6f3-4f09-a7ce-19329b4d9b40/resource/83aeb2be-a3bc-40da-885e-19bf0cbb8ab0/download/antiguedadenanosporcolectivopassituaciona10122013.csv"}
 

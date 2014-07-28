@@ -1,0 +1,7 @@
+{"dataset":"ranking","servidor":"http://opendata.ugr.es/dataset/","url":"ranking/resource/"}
+
+{"dataset":"ranking","categoria":["resultados"],"nombre":"Evolución: ranking de Shanghai", "url":"ba9ed205-39d0-4df2-ae95-72f766f74c11","descarga":"62be6e13-0fd9-457c-a599-738a08be937b/resource/ba9ed205-39d0-4df2-ae95-72f766f74c11/download/evoluciondelaposiciondelasuniversidadesespanolasenelrankingdeshanghai.csv"}
+
+{"dataset":"ranking","categoria":["resultados"],"nombre":"Posición: rankings ISI", "url":"0730d0fc-7d2c-442b-afdb-bf45a407a760","descarga":"62be6e13-0fd9-457c-a599-738a08be937b/resource/0730d0fc-7d2c-442b-afdb-bf45a407a760/download/posiciondelauniversidaddegranadaenlosdistintoscamposcientificosdelosrankingsisi.csv"}
+
+{"dataset":"ranking","categoria":["resultados"],"nombre":"Principales rankings", "url":"4e23db7a-3058-44a1-a838-f4b9b9de59fc","descarga":"62be6e13-0fd9-457c-a599-738a08be937b/resource/4e23db7a-3058-44a1-a838-f4b9b9de59fc/download/ranking.csv"}

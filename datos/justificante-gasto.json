@@ -1,0 +1,19 @@
+{"dataset":"justificante-gastos","servidor":"http://opendata.ugr.es/dataset/","url":"justificantes-de-gasto-ugr/resource/"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 441.00", "url":"b4d1e103-06f5-42dc-b542-ff298f1e97c6","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/b4d1e103-06f5-42dc-b542-ff298f1e97c6/download/441.00enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 445.00", "url":"0ad0b55c-558b-407f-8b6b-579eda8b8f56","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/0ad0b55c-558b-407f-8b6b-579eda8b8f56/download/445.00enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 480", "url":"b0697179-297c-4f70-8686-be880cb9b644","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/b0697179-297c-4f70-8686-be880cb9b644/download/concepto480enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 481", "url":"86d047b2-a09f-4d42-b8f2-c7f3c473181d","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/86d047b2-a09f-4d42-b8f2-c7f3c473181d/download/concepto481enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 483", "url":"af96d13c-e5b9-4c99-ac06-bbf01872a4b4","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/af96d13c-e5b9-4c99-ac06-bbf01872a4b4/download/concepto483enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 484", "url":"7f29712c-526c-4fbc-9ecd-81bc6cd8deae","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/7f29712c-526c-4fbc-9ecd-81bc6cd8deae/download/concepto484enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 485", "url":"a34de441-a1a7-4d15-8994-1c39dc7abf29","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/a34de441-a1a7-4d15-8994-1c39dc7abf29/download/concepto485enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Concepto 490", "url":"fcec1a4c-47e4-4c1c-8500-ecdd765df79d","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/fcec1a4c-47e4-4c1c-8500-ecdd765df79d/download/concepto490enviado.csv"}
+
+{"dataset":"justificante-gastos","categoria":["infoEco"],"nombre":"Edificios", "url":"45332386-01fe-41b8-b3c5-26ad42d309bd","descarga":"eadf3a87-192d-43cf-b068-1cb479e51035/resource/45332386-01fe-41b8-b3c5-26ad42d309bd/download/edificiossituacionjuridicayvaloraciona31122013enviado.csv"}

@@ -40,7 +40,7 @@
 
 {"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Centro de Lenguas Modernas", "url":"e10a95ec-1d3c-48cc-9e69-5e8ff0b282a9","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/e10a95ec-1d3c-48cc-9e69-5e8ff0b282a9/download/evoluciondeperdidasygananciasdelcentrodelenguasmodernas.csv"}
 
-{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Cajas habilitadas", "url":"b8c4ba7a-26fc-4d5a-80a6-cfb69dbc053b","descarga":"http://opendata.ugr.es/dataset/6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/b8c4ba7a-26fc-4d5a-80a6-cfb69dbc053b/download/cajashabilitadas.csv"}
+{"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Cajas habilitadas", "url":"b8c4ba7a-26fc-4d5a-80a6-cfb69dbc053b","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/b8c4ba7a-26fc-4d5a-80a6-cfb69dbc053b/download/cajashabilitadas.csv"}
 
 {"dataset":"presupuesto","categoria":["infoEco"],"nombre":"Cálculo del límite máximo de gasto", "url":"63062250-6058-4f2d-8fe1-62e61ac07597","descarga":"6bafcf73-06a4-421a-8b2f-b7ce6ce6e757/resource/63062250-6058-4f2d-8fe1-62e61ac07597/download/calculodelimportedellimitemaximodegastoparaelejercicioeconomico2014.csv"}
 

@@ -1,0 +1,5 @@
+{"dataset":"servicios-ugr","servidor":"http://opendata.ugr.es/dataset/","url":"servicios-de-la-universidad/resource/"}
+
+{"dataset":"servicios-ugr","categoria":["servicios"],"nombre":"Carta de servicios", "url":"5ec20f79-cd33-4ade-b5fe-52d84d0737ee","descarga":"79a026f0-da86-4bbf-9e32-02102df5d3f5/resource/5ec20f79-cd33-4ade-b5fe-52d84d0737ee/download/cartadeserviciospublicadaenboja.20142015.pdf"}
+
+{"dataset":"servicios-ugr","categoria":["servicios"],"nombre":"Catálogo de procedimientos administrativos", "url":"bf115ee2-a8f8-4cf1-87c5-f55320b6605b","descarga":"79a026f0-da86-4bbf-9e32-02102df5d3f5/resource/bf115ee2-a8f8-4cf1-87c5-f55320b6605b/download/catalogodeprocedimientosadministrativos.csv"}

@@ -1,0 +1,5 @@
+{"dataset":"matriculaciones","servidor":"http://opendata.ugr.es/dataset/","url":"matriculas-ugr-2013/resource/"}
+
+{"dataset":"matriculaciones","categoria":["alumnos"],"nombre":"Matrículas: grado", "url":"5df5e28b-09ca-40aa-a908-5438fd53cbda","descarga":"a6353c6f-130a-48bb-82a7-500a2fc457e1/resource/5df5e28b-09ca-40aa-a908-5438fd53cbda/download/matriculas20132014.csv"}
+
+{"dataset":"matriculaciones","categoria":["alumnos"],"nombre":"Matrículas: posgrado", "url":"48167c2f-6d17-49c5-9b63-f3d1129d425b","descarga":"a6353c6f-130a-48bb-82a7-500a2fc457e1/resource/48167c2f-6d17-49c5-9b63-f3d1129d425b/download/matriculasposgrado20132014.csv"}
