@@ -1,0 +1,21 @@
+{"dataset":"evolucion","servidor":"http://opendata.ugr.es/dataset/","url":"evolucion-demanda-academica/resource/"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: convocatoria extraordinaria de septiembre (2013/2014)", "url":"88c7eb60-d29a-4833-95da-8338ea64d1b2","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/88c7eb60-d29a-4833-95da-8338ea64d1b2/download/pruebadeaccesoconvocatoriaextraordinariadeseptiembre.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: convocatoria ordinaria de junio (2013/2014)", "url":"db0535c8-2876-4634-8c2c-59009b86c33f","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/db0535c8-2876-4634-8c2c-59009b86c33f/download/pruebadeaccesoconvocatoriaordinariadejunio.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 25 años (2013/2014)", "url":"eb4258ed-64ce-41b4-b324-2e15802108f7","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/eb4258ed-64ce-41b4-b324-2e15802108f7/download/pruebadeaccesomayoresde25.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 40 años (2013/2014)", "url":"7dd7c550-98be-4bf7-859f-659666a530d9","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/7dd7c550-98be-4bf7-859f-659666a530d9/download/pruebadeaccesomayoresde40.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 45 años (2013/2014)", "url":"ec84497d-6831-4bef-999d-9afcb0b2049d","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/ec84497d-6831-4bef-999d-9afcb0b2049d/download/pruebadeaccesomayoresde45.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: convocatoria extraordinaria de septiembre (2012/2013)", "url":"d08cea38-e441-452f-94f1-447422d54d62","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/d08cea38-e441-452f-94f1-447422d54d62/download/convocatoriaextraordinariadeseptiembre2012.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: convocatoria ordinaria de junio (2012/2013)", "url":"9d9540a3-7395-4afe-9f4c-71b61ea04fac","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/9d9540a3-7395-4afe-9f4c-71b61ea04fac/download/pruebadeaccesoconvocatoriaordinariadejunio.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 25 años (2012/2013)", "url":"715bed93-a6d8-4d97-9162-02c8457eaa03","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/715bed93-a6d8-4d97-9162-02c8457eaa03/download/mayores25.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 40 años (2012/2013)", "url":"64b86efd-ae87-4180-b239-8b7c52268d6a","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/64b86efd-ae87-4180-b239-8b7c52268d6a/download/mayores40.csv"}
+
+{"dataset":"evolucion","categoria":["ofertaYdemanda"],"nombre":"Prueba de acceso: mayores de 45 años (2012/2013)", "url":"a4c13239-7d30-415c-8b69-001293943abc","descarga":"7f5a6a24-d1ab-42dc-a497-b429413760c6/resource/a4c13239-7d30-415c-8b69-001293943abc/download/mayores45.csv"}

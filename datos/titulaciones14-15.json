@@ -1,0 +1,15 @@
+{"dataset":"titulaciones14-15","servidor":"http://opendata.ugr.es/dataset/","url":"titulaciones-14-15/resource/"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de grado: titulaciones oficiales", "url":"8f913bd2-092d-4916-b732-f2a336bd29db","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/8f913bd2-092d-4916-b732-f2a336bd29db/download/ofertadegradotitulaciones.csv"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de posgrado: másteres oficiales", "url":"f3524e52-99e8-4214-a06b-0c19dc065e29","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/f3524e52-99e8-4214-a06b-0c19dc065e29/download/ofertademaster.csv"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de posgrado: formación del profesorado", "url":"37132b47-951d-440d-a345-c3155a7bbf81","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/37132b47-951d-440d-a345-c3155a7bbf81/download/ofertaformaciondelprofesorado.csv"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de posgrado: másteres propios", "url":"5833cc32-324f-4354-b3d2-1c0cc472ba0e","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/5833cc32-324f-4354-b3d2-1c0cc472ba0e/download/ofertadeposgradomasterespropios.csv"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de posgrado: cursos complementarios", "url":"7549e5d8-b30a-4fbb-806b-0bb860b0fdab","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/7549e5d8-b30a-4fbb-806b-0bb860b0fdab/download/ofertadeposgradocursoscomplementarios.csv"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de posgrado: expertos", "url":"a9ffee15-7590-4407-87f2-e622f5adb667","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/a9ffee15-7590-4407-87f2-e622f5adb667/download/ofertadeposgradoexpertos.csv"}
+
+{"dataset":"titulaciones14-15","categoria":["ofertaYdemanda"],"nombre":"Oferta de posgrado: doctorado", "url":"4feb3c28-36c1-4a22-b76b-2a48be46ace6","descarga":"a62192e7-fdd9-4c8b-a1c2-185bd712497e/resource/4feb3c28-36c1-4a22-b76b-2a48be46ace6/download/ofertadedoctorado.csv"}
