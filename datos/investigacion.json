@@ -1,3 +1,23 @@
 {"dataset":"investigacion","servidor":"http://opendata.ugr.es/dataset/","url":"investigacion/resource/"}
 
 {"dataset":"investigacion","categoria":["resultados"],"nombre":"Resultados de la investigación", "url":"bc7304df-3124-47ed-bdf0-9f7e6c025692","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/bc7304df-3124-47ed-bdf0-9f7e6c025692/download/investigacion.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Proyectos I+D: jóvenes investigadores", "url":"aa1d773b-7449-439e-aeb4-7d07a2318774","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/aa1d773b-7449-439e-aeb4-7d07a2318774/download/proyectosidparajovenesinvestigadores.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Grupos y personal de investigación por ponencia", "url":"b5015c01-eee8-4fe3-8670-c4a3d372bf59","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/b5015c01-eee8-4fe3-8670-c4a3d372bf59/download/gruposypersonaldeinvestigacionporponencia.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Cifras en investigación: datos generales", "url":"dfd33860-5a95-4cce-9800-3ab8524f4d29","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/dfd33860-5a95-4cce-9800-3ab8524f4d29/download/cifraseninvestigaciondatosgenerales.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Producción científica por ponencia", "url":"ca62e5bb-2dd1-47c7-a529-b0d988caf588","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/ca62e5bb-2dd1-47c7-a529-b0d988caf588/download/produccioncientificaporponencia20092013.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Publicaciones Web of Science: producción", "url":"5c1191dc-d9c1-4e7a-8a1b-51d0a144dac3","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/5c1191dc-d9c1-4e7a-8a1b-51d0a144dac3/download/publicacioneswebofscience.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Publicaciones Web of Science: visibilidad", "url":"9c7d9e59-42c6-4e8a-921c-fdbbfee49e3c","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/9c7d9e59-42c6-4e8a-921c-fdbbfee49e3c/download/indicadoresdevisibilidadcientifica.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Top 10: categorías según producción", "url":"a16099ad-210b-4857-8868-6be2636f9b35","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/a16099ad-210b-4857-8868-6be2636f9b35/download/top10categoriassegunproduccion.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Becas FPU, FPI y RyC", "url":"88120d00-6065-4e72-95f6-597d79fe482a","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/88120d00-6065-4e72-95f6-597d79fe482a/download/becasfpufpiyryc.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Proyectos Plan Nacional: evaluación anual", "url":"34c76d8d-cd23-4358-897f-09689f2fa8a4","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/34c76d8d-cd23-4358-897f-09689f2fa8a4/download/evolucionanualproyectosplannacional.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Proyectos internacionales", "url":"b9f14c70-cf72-4c14-a4c2-04e092d4adbd","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/b9f14c70-cf72-4c14-a4c2-04e092d4adbd/download/proyectosinternacionales.csv"}
