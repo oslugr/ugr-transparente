@@ -21,3 +21,5 @@
 {"dataset":"investigacion","categoria":["resultados"],"nombre":"Proyectos Plan Nacional: evaluación anual", "url":"34c76d8d-cd23-4358-897f-09689f2fa8a4","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/34c76d8d-cd23-4358-897f-09689f2fa8a4/download/evolucionanualproyectosplannacional.csv"}
 
 {"dataset":"investigacion","categoria":["resultados"],"nombre":"Proyectos internacionales", "url":"b9f14c70-cf72-4c14-a4c2-04e092d4adbd","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/b9f14c70-cf72-4c14-a4c2-04e092d4adbd/download/proyectosinternacionales.csv"}
+
+{"dataset":"investigacion","categoria":["resultados"],"nombre":"Memoria de investigación 2014", "url":"2a2e817b-8e31-4c8c-9ec3-2db50d7b2624","descarga":"e1975e32-6bdc-4341-9c1c-b7701cf41f84/resource/2a2e817b-8e31-4c8c-9ec3-2db50d7b2624/download/memoriadeinvestigacion2014.csv"}
