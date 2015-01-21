@@ -14,7 +14,7 @@
 
 {"dataset":"composicion-gobierno","categoria":["gobierno"],"nombre":"Delegaciones del rector", "url":"ab3c89cc-0d24-4f59-bbf6-27246ebde79c","descarga":"af255ffc-ad76-48bc-9db1-f49aa818489e/resource/ab3c89cc-0d24-4f59-bbf6-27246ebde79c/download/delegacionesdelrector.csv"}
 
-{"dataset":"composicion-gobierno","categoria":["gobierno"],"nombre":"Delegación de estudiantes", "url":"db185b62-811d-4304-aba8-93d7c233b749","descarga":"af255ffc-ad76-48bc-9db1-f49aa818489e/resource/db185b62-811d-4304-aba8-93d7c233b749/download/delegaciondeestudiantes.pdf"}
+{"dataset":"composicion-gobierno","categoria":["gobierno"],"nombre":"Delegación General de Estudiantes", "url":"db185b62-811d-4304-aba8-93d7c233b749","descarga":"af255ffc-ad76-48bc-9db1-f49aa818489e/resource/db185b62-811d-4304-aba8-93d7c233b749/download/delegaciondeestudiantes.pdf"}
 
 {"dataset":"composicion-gobierno","categoria":["gobierno"],"nombre":"Organigrama: secretaría general", "url":"86c0811c-4699-418f-89bb-c51efd5147ab","descarga":"af255ffc-ad76-48bc-9db1-f49aa818489e/resource/86c0811c-4699-418f-89bb-c51efd5147ab/download/organigramasecretariageneral.pdf"}
 
@@ -33,4 +33,3 @@
 {"dataset":"composicion-gobierno","categoria":["gobierno"],"nombre":"Junta del Personal de Administración y Servicios (funcionario)", "url":"3a2027a1-6a47-438f-a5cf-08dde4c55978","descarga":"af255ffc-ad76-48bc-9db1-f49aa818489e/resource/3a2027a1-6a47-438f-a5cf-08dde4c55978/download/juntadelpasfuncionario.csv"}
 
 {"dataset":"composicion-gobierno","categoria":["gobierno"],"nombre":"Junta del Personal Docente e Investigador", "url":"7bf6f70c-ccb5-49f5-a700-68254fa42586","descarga":"af255ffc-ad76-48bc-9db1-f49aa818489e/resource/7bf6f70c-ccb5-49f5-a700-68254fa42586/download/juntadelpdi.csv"}
-
