@@ -6,4 +6,6 @@
 
 {"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Normativa: enlaces", "url":"58961aa1-d980-4f5b-9c12-fa63538999c6","descarga":"a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/58961aa1-d980-4f5b-9c12-fa63538999c6/download/enlacesnormativa.csv"}
 
-{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Ley Orgánica de Universidades", "url":"1d7347ef-9b23-4641-a340-a23f28317b19","descarga":"http://opendata.ugr.es/dataset/a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/1d7347ef-9b23-4641-a340-a23f28317b19/download/lousg.pdf"}
+{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Ley Orgánica de Universidades", "url":"1d7347ef-9b23-4641-a340-a23f28317b19","descarga":"a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/1d7347ef-9b23-4641-a340-a23f28317b19/download/lousg.pdf"}
+
+{"dataset":"normativasUGR","categoria":["normativas"],"nombre":"Reglamento de la Delegación General de Estudiantes", "url":"a47cf692-b608-4e02-a1cd-7671a3e3bac3","descarga":"/a14fb05c-3f1e-4541-86a6-66affc470bcf/resource/a47cf692-b608-4e02-a1cd-7671a3e3bac3/download/ncg901.pdf"}
