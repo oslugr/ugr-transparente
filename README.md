@@ -7,5 +7,6 @@ La web está publicada en transparente.ugr.es
 
 Este repositorio contiene el provisionamiento del servidor y los datos de la base de datos mongoDB.
 
-El repositorio con el código del servidor se encuentra en [https://github.com/oslugr/ugr-transparente-servidor](https://github.com/oslugr/ugr-transparente-servidor)
+#### Este repositorio está obsoleto
 
+El repositorio en actualización continua completa se encuentra en [https://github.com/oslugr/ugr-transparente-servidor](https://github.com/oslugr/ugr-transparente-servidor)
